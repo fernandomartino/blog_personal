@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ensayos y Reflexiones</title>
+    
+    <!-- Fuente Inter para mantener la consistencia tipográfica -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS con plugin de tipografía -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+
+    <style>
+        /* Configuración base idéntica al ensayo para cohesión visual */
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #fafafa;
+            color: #334155;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-slate-200 selection:text-slate-900 min-h-screen flex flex-col justify-between">
+
+    <div class="max-w-3xl w-full mx-auto px-6 py-12 md:py-20">
+        
+        <!-- Encabezado principal -->
+        <header class="mb-16 text-center">
+            <p class="text-xs font-semibold uppercase tracking-widest text-slate-400 mb-3">
+                Archivo de Investigación &amp; Filosofía
+            </p>
+            <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight mb-6 leading-tight">
+                Ensayos y Reflexiones
+            </h1>
+            <p class="text-xl text-slate-500 font-light max-w-2xl mx-auto leading-relaxed">
+                Exploraciones sobre matemáticas, teoría de la información, filosofía y la estructura de la realidad.
+            </p>
+        </header>
+
+        <!-- Lista de ensayos -->
+        <main>
+            <div class="border-b border-slate-200 pb-3 mb-8 flex items-center justify-between">
+                <h2 class="text-sm font-semibold uppercase tracking-wider text-slate-400">
+                    Publicaciones
+                </h2>
+                <span class="text-xs text-slate-400">1 ensayo</span>
+            </div>
+
+            <div class="space-y-6">
+                <!-- Tarjeta/Enlace al ensayo principal -->
+                <article class="group">
+                    <a href="categor_as_informaci_n_y_filosof_a(1).html" 
+                       class="block p-6 md:p-8 bg-white rounded-xl border border-slate-200/80 shadow-sm hover:shadow-md hover:border-slate-300 transition-all duration-200 ease-out">
+                        
+                        <div class="flex flex-wrap items-center gap-3 text-xs text-slate-400 mb-3">
+                            <span class="font-medium text-slate-600 bg-slate-100 px-2.5 py-1 rounded-md">
+                                Matemáticas &amp; Epistemología
+                            </span>
+                            <span>&bull;</span>
+                            <span>5 min de lectura</span>
+                        </div>
+
+                        <h3 class="text-2xl font-bold text-slate-900 group-hover:text-slate-700 transition-colors mb-2 leading-snug">
+                            Categorías, Información y la Estructura de la Realidad
+                        </h3>
+
+                        <p class="text-slate-600 font-normal leading-relaxed mb-5">
+                            Una breve visión de cómo la información y la estructura se entrelazan. Un recorrido desde la entropía de Shannon hasta los funtores de la Teoría de Categorías y sus implicaciones filosóficas sobre la percepción humana.
+                        </p>
+
+                        <div class="inline-flex items-center text-sm font-semibold text-slate-800 group-hover:text-slate-950">
+                            <span>Leer ensayo</span>
+                            <svg class="w-4 h-4 ml-1.5 transform group-hover:translate-x-1 transition-transform duration-200" 
+                                 fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </main>
+        
+    </div>
+
+    <!-- Pie de página consistente -->
+    <footer class="max-w-3xl w-full mx-auto px-6 mt-8 text-center text-slate-400 text-sm border-t border-slate-200 pt-8 pb-12">
+        <p>Reflexiones sobre la intersección de las matemáticas, la información y la consciencia.</p>
+    </footer>
+    
+</body>
+</html>
